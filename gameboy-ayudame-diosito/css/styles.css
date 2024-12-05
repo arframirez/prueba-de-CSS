@@ -1,0 +1,371 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(73, 5, 136);
+}
+
+.container {
+    width: 240px;
+    height: 370px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(226, 226, 224, 0.774);
+    border-radius: 10px 10px 50px 10px;
+    box-shadow: inset 3px 3px 3px rgb(127, 124, 124), inset -3px -10px 10px rgb(109, 107, 107) ;
+}
+
+.rayita {
+    width: 100%;
+    height: 20px;
+    box-shadow: 0px 2px 2px #333 ;
+}
+
+.pantalla {
+    background-color: rgb(77, 81, 109);
+    width: 200px;
+    height: 150px;
+    margin: 15px;
+    border-radius: 5px 5px 20px 5px;
+    border-top: 3px solid rgb(87, 94, 143);
+}
+.texti {
+    width: 100%;
+    height: 0px;
+    font-size: 7px;
+    position: relative;
+    top: 5px;
+    padding-left: 60px;
+    color:azure;
+    font-family: sans-serif;
+}
+.pantallita {
+    background-color: rgb(12, 134, 12);
+    width: 120px;
+    height: 115px;
+    position: relative;
+    top: 20px;
+    left: 40px;
+    box-shadow: inset 4px 4px 8px #333, inset -1px -1px 8px #333;
+}
+.Nintendo {
+    font-family: "Press Start 2P", system-ui; 
+    height: 0px;
+    margin-left: 15px;
+    font-size: 8px;
+    color: rgb(32, 5, 56);
+}
+.gb {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    margin-left: -5px;
+    font-size: 1rem;
+}
+ 
+.tm {
+    font-size: 5px;
+    margin: -5px; ;
+}
+
+.flechitas{
+    width: 70px;
+    height: 70px;
+    margin-left: 12px;
+    margin-top: 30px;
+    border-radius: 50px;
+    box-shadow: inset 10px 5px 4px rgba(112, 104, 104, 0.308);
+}
+
+.barraVer{
+    position: relative;
+    top: 12px;
+    left: 27px;
+    width: 15px;
+    height: 50px;
+    background-color: #333;
+    border-radius: 5px;
+    border: 3px solid rgb(22, 20, 20);
+}
+.bolita{
+    width: 12px;
+    height: 12px;
+    background-color: aliceblue;
+    position: relative;
+    bottom: 19px;
+    left: 28px;
+    z-index: 2;
+    border-radius: 20px;
+    box-shadow:inset 2px 2px 3px #333, inset -2px -2px 3px #333;
+}
+.barraHor{
+    position: relative;
+    bottom: 32px;
+    left: 10px;
+    width: 50px;
+    height: 15px;
+    background-color: #333;
+    border-radius: 5px;
+    border: 3px solid rgb(22, 20, 20);
+    
+}
+.contenDBot{
+   
+    width: 35px;
+    height: 88px;
+    border-radius: 100px ;
+    position: relative;
+    transform: rotate(65deg);
+    left: 160px;
+    bottom: 80px; 
+    padding: 2px;
+    box-shadow: inset 10px 7px 5px rgba(117, 114, 114, 0.308);
+}
+
+.botonRojo1{
+    background-color: rgb(186, 8, 8);
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    position: relative;
+    top: 53px;
+    left: 1px;
+    box-shadow: -3px -1px 1px rgb(247, 54, 54) ;
+}
+.botonRojo2{
+    background-color: rgb(174, 5, 5);
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    position: relative; 
+    left: 1px;
+    bottom: 30px;
+    box-shadow: -3px -1px 1px rgb(247, 54, 54) ;
+}
+.palito1 {
+    width: 4px;
+    height: 35px;
+    background-color: white;
+    position: relative;
+    left: 170px;
+    bottom: 70px;
+    transform: rotate(-35deg);
+    border-radius: 20px;
+    box-shadow: inset 1px 1px 4px #333;
+}
+
+.palito2 {
+    width: 4px;
+    height: 35px;
+    background-color: white;
+    position: relative;
+    left: 180px;
+    bottom: 110px;
+    transform: rotate(-35deg);
+    border-radius: 20px;
+    box-shadow: inset 1px 1px 4px #333;
+}
+
+.palito3 {
+    width: 4px;
+    height: 35px;
+    background-color: white;
+    position: relative;
+    left: 190px;
+    bottom: 150px;
+    transform: rotate(-35deg);
+    border-radius: 20px;
+    box-shadow: inset 1px 1px 4px #333;
+}
+
+.palito4 {
+    width: 4px;
+    height: 35px;
+    background-color: white;
+    position: relative;
+    left: 200px;
+    bottom: 190px;
+    transform: rotate(-35deg);
+    border-radius: 20px;
+    box-shadow: inset 1px 1px 4px #333;
+}
+
+.palito5 {
+    width: 4px;
+    height: 35px;
+    background-color: white;
+    position: relative;
+    left: 210px;
+    bottom: 230px;
+    transform: rotate(-35deg);
+    border-radius: 20px;
+    box-shadow: inset 1px 1px 4px #333;
+}
+.palito6 {
+    width: 4px;
+    height: 35px;
+    background-color: white;
+    position: relative;
+    left: 220px;
+    bottom: 270px;
+    transform: rotate(-35deg);
+    border-radius: 20px;
+    box-shadow: inset 1px 1px 4px #333;
+}
+
+.a{
+    position: relative;
+    font-family: "Press Start 2P", system-ui; 
+    font-size: 8px; 
+    left: 35px;
+    display: inline-block;
+    transform: rotate(265deg);
+    top: 5px;
+    color: rgb(32, 5, 56);
+}
+.b{
+    position: relative;
+    font-family: "Press Start 2P", system-ui; 
+    font-size: 8px; 
+    left: 35px;
+    display: inline-block;
+    transform: rotate(265deg);
+    top: 5px;
+    color: rgb(32, 5, 56);
+}
+ .select {
+    width: 30px;
+    height: 10px;
+    position: relative;
+    bottom: 280px;
+    left: 80px;
+    border-radius: 10px;
+    outline: 2px solid #716f6f;
+    transform: rotate(-30deg);
+    box-shadow: inset 1px -4px 8px #333;
+   
+ }
+ .sel{
+   display: inline-block;
+   position: relative;
+   top: 5px;
+   color: rgb(32, 5, 56);
+   font-size: 6px;
+   font-family: "Press Start 2P", system-ui; ;
+ }
+ .sta{
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    color: rgb(32, 5, 56);
+    font-size: 6px;
+    font-family: "Press Start 2P", system-ui; 
+ 
+  }
+ .start {
+    width: 30px;
+    height: 10px;
+    
+    position: relative;
+    bottom: 290px;
+    border-radius: 10px;
+    left: 120px;
+    outline: 2px solid #716f6f;
+    transform: rotate(-30deg);
+    box-shadow: inset 1px -2px 8px #333;
+ }
+
+ .Phones {
+    width: 50px;
+    height: 15px;
+    background-color:  rgba(177, 177, 174, 0.774);;
+    position: relative;
+    bottom: 270px;
+    left: 90px;
+    border-radius: 20px;
+   box-shadow: inset 3px 3px 2px #333;
+
+
+ }
+ .phon{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    position: relative;
+    left: 4px;
+    bottom: 2px;
+    color: rgb(218, 216, 213);
+    text-shadow: 1px 1px 1px #333;
+ }
+
+ .on{
+    height: 20px;
+    width: 50px;
+    margin-bottom: -20px;
+    background-color:  rgba(177, 177, 174, 0.774);;
+    position: relative;
+    left: 30px;
+    border-radius: 20px;
+    box-shadow: inset 3px 3px 2px #333; 
+ }
+
+ .of{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    position: relative;
+    left: 2px;
+   
+    color: rgb(218, 216, 213);
+    text-shadow: 1px 1px 1px #333;
+ }
+
+.boton{
+    width: 20px;
+    height: 20px;
+    margin-bottom: -20px;
+    background-color: rgba(226, 226, 224, 0.774);
+    border-radius: 20px;
+    position: relative;
+    left: 45px;
+    bottom: 8px;
+    box-shadow: inset 0px -9px 5px #333;
+}
+
+.puntRed{
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    position: relative;
+    bottom: 200px;
+    left: 35px;
+    border-radius: 5px;
+}
+.batery{
+    font-size: 5px;
+    font-family: sans-serif;
+    position: relative;
+    right: 8px;
+    bottom: 3px;
+    color: antiquewhite;
+}
+
+.r1{
+    width: 40px;
+    height: 1px;
+    position: relative;
+    right: 50px;
+    background-color: blue;
+    display: inline-block;
+    margin-right: -50px;
+}
+.r2{
+    width: 40px;
+    height: 1px;
+    position: relative;
+    right: 41px;
+    bottom: 4px;
+    background-color: rgb(255, 0, 0);
+    display: inline-block;
+    margin-right: -40px;
+}
